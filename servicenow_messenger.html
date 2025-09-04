@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ServiceNow Engagement Messenger</title>
+</head>
+<body>
+    <h1>Welcome to the ServiceNow Engagement Messenger Page</h1>
+    <p>This page includes the ServiceNow Engagement Messenger integration.</p>
+
+    <!-- ServiceNow Engagement Messenger Scripts -->
+    <script src="https://ernstyoungllpdemo1.service-now.com/scripts/sn_csm_ec.js?v=5.6"></script>
+    <script>
+    SN_CSM_EC.init({
+        moduleID: "https://ernstyoungllpdemo1.service-now.com/#1422ca1147f32690ed4ddd49116d43d7",
+        loadFeature: SN_CSM_EC.loadEMFeature()
+    });
+    </script>
+</body>
+</html>
